@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-03T03:44:22Z",
+  "title": "Design System: OnTheWay",
+  "extensions": {
+    "colorMeta": {
+      "app-background": {
+        "role": "neutral",
+        "displayName": "Warm Canvas",
+        "canonical": "light-dark(#FAFAF7, #101210)",
+        "tonalRamp": ["oklch(15% 0.004 106.5)", "oklch(27% 0.004 106.5)", "oklch(39% 0.004 106.5)", "oklch(51% 0.004 106.5)", "oklch(63% 0.004 106.5)", "oklch(75% 0.004 106.5)", "oklch(87% 0.004 106.5)", "oklch(95% 0.004 106.5)"]
+      },
+      "app-surface": {
+        "role": "neutral",
+        "displayName": "Clean Card",
+        "canonical": "light-dark(#FFFFFF, #1C1F1B)",
+        "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(95% 0 0)"]
+      },
+      "app-surface-alt": {
+        "role": "neutral",
+        "displayName": "Soft Field",
+        "canonical": "light-dark(#F4F1EC, #252922)",
+        "tonalRamp": ["oklch(15% 0.007 80.7)", "oklch(27% 0.007 80.7)", "oklch(39% 0.007 80.7)", "oklch(51% 0.007 80.7)", "oklch(63% 0.007 80.7)", "oklch(75% 0.007 80.7)", "oklch(87% 0.007 80.7)", "oklch(95% 0.007 80.7)"]
+      },
+      "app-line": {
+        "role": "neutral",
+        "displayName": "Warm Hairline",
+        "canonical": "light-dark(#E8E4DC, #3D4239)",
+        "tonalRamp": ["oklch(15% 0.012 84.6)", "oklch(27% 0.012 84.6)", "oklch(39% 0.012 84.6)", "oklch(51% 0.012 84.6)", "oklch(63% 0.012 84.6)", "oklch(75% 0.012 84.6)", "oklch(87% 0.012 84.6)", "oklch(95% 0.012 84.6)"]
+      },
+      "app-ink": {
+        "role": "neutral",
+        "displayName": "Near-Black Ink",
+        "canonical": "light-dark(#1B1D21, #F5F6F2)",
+        "tonalRamp": ["oklch(15% 0.008 264.4)", "oklch(27% 0.008 264.4)", "oklch(39% 0.008 264.4)", "oklch(51% 0.008 264.4)", "oklch(63% 0.008 264.4)", "oklch(75% 0.008 264.4)", "oklch(87% 0.008 264.4)", "oklch(95% 0.008 264.4)"]
+      },
+      "app-secondary-ink": {
+        "role": "neutral",
+        "displayName": "Slate Metadata",
+        "canonical": "light-dark(#5C626C, #B9BFB5)",
+        "tonalRamp": ["oklch(15% 0.018 260.7)", "oklch(27% 0.018 260.7)", "oklch(39% 0.018 260.7)", "oklch(51% 0.018 260.7)", "oklch(63% 0.018 260.7)", "oklch(75% 0.018 260.7)", "oklch(87% 0.018 260.7)", "oklch(95% 0.018 260.7)"]
+      },
+      "brand-navy": {
+        "role": "secondary",
+        "displayName": "Trust Navy",
+        "canonical": "light-dark(#1F2A44, #ADBEE7)",
+        "tonalRamp": ["oklch(15% 0.050 265.9)", "oklch(27% 0.050 265.9)", "oklch(39% 0.050 265.9)", "oklch(51% 0.050 265.9)", "oklch(63% 0.050 265.9)", "oklch(75% 0.050 265.9)", "oklch(87% 0.050 265.9)", "oklch(95% 0.050 265.9)"]
+      },
+      "brand-green": {
+        "role": "primary",
+        "displayName": "Route Sage",
+        "canonical": "light-dark(#2F7650, #63B88D)",
+        "tonalRamp": ["oklch(15% 0.094 157.1)", "oklch(27% 0.094 157.1)", "oklch(39% 0.094 157.1)", "oklch(51% 0.094 157.1)", "oklch(63% 0.094 157.1)", "oklch(75% 0.094 157.1)", "oklch(87% 0.094 157.1)", "oklch(95% 0.094 157.1)"]
+      },
+      "accent-blue": {
+        "role": "tertiary",
+        "displayName": "Verified Blue",
+        "canonical": "light-dark(#356EA6, #76A8DC)",
+        "tonalRamp": ["oklch(15% 0.107 250.2)", "oklch(27% 0.107 250.2)", "oklch(39% 0.107 250.2)", "oklch(51% 0.107 250.2)", "oklch(63% 0.107 250.2)", "oklch(75% 0.107 250.2)", "oklch(87% 0.107 250.2)", "oklch(95% 0.107 250.2)"]
+      },
+      "warm-amber": {
+        "role": "tertiary",
+        "displayName": "Warm Amber",
+        "canonical": "light-dark(#8E5712, #E9AF56)",
+        "tonalRamp": ["oklch(15% 0.106 65.5)", "oklch(27% 0.106 65.5)", "oklch(39% 0.106 65.5)", "oklch(51% 0.106 65.5)", "oklch(63% 0.106 65.5)", "oklch(75% 0.106 65.5)", "oklch(87% 0.106 65.5)", "oklch(95% 0.106 65.5)"]
+      },
+      "app-danger": {
+        "role": "tertiary",
+        "displayName": "Measured Coral",
+        "canonical": "light-dark(#C0533F, #EF8471)",
+        "tonalRamp": ["oklch(15% 0.145 32.2)", "oklch(27% 0.145 32.2)", "oklch(39% 0.145 32.2)", "oklch(51% 0.145 32.2)", "oklch(63% 0.145 32.2)", "oklch(75% 0.145 32.2)", "oklch(87% 0.145 32.2)", "oklch(95% 0.145 32.2)"]
+      },
+      "muted-plum": {
+        "role": "tertiary",
+        "displayName": "Muted Plum",
+        "canonical": "light-dark(#7A5478, #CA9DC6)",
+        "tonalRamp": ["oklch(15% 0.073 328.4)", "oklch(27% 0.073 328.4)", "oklch(39% 0.073 328.4)", "oklch(51% 0.073 328.4)", "oklch(63% 0.073 328.4)", "oklch(75% 0.073 328.4)", "oklch(87% 0.073 328.4)", "oklch(95% 0.073 328.4)"]
+      },
+      "coffee-brown": {
+        "role": "tertiary",
+        "displayName": "Coffee Brown",
+        "canonical": "#8F6A45",
+        "tonalRamp": ["oklch(15% 0.070 65.5)", "oklch(27% 0.070 65.5)", "oklch(39% 0.070 65.5)", "oklch(51% 0.070 65.5)", "oklch(63% 0.070 65.5)", "oklch(75% 0.070 65.5)", "oklch(87% 0.070 65.5)", "oklch(95% 0.070 65.5)"]
+      },
+      "constant-white": {
+        "role": "neutral",
+        "displayName": "Constant White",
+        "canonical": "#FFFFFF",
+        "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(95% 0 0)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Large Title", "purpose": "Top-level marketplace titles, completion outcomes, balances, and decisive state messages." },
+      "headline": { "displayName": "Headline", "purpose": "Card titles, section headings, names, and important control labels." },
+      "title": { "displayName": "Title", "purpose": "Task identities, pricing, and focused screen summaries." },
+      "body": { "displayName": "Body", "purpose": "Explanatory copy and full-width primary actions." },
+      "label": { "displayName": "Caption Label", "purpose": "Metadata, pills, progress captions, and compact metrics." }
+    },
+    "shadows": [
+      { "name": "welcome-emblem", "value": "0 8px 30px rgba(31, 42, 68, 0.18)", "purpose": "CSS preview translation of the SwiftUI navy shadow with radius 15 and y-offset 8 on the welcome mark." },
+      { "name": "create-action", "value": "0 4px 16px rgba(47, 118, 80, 0.25)", "purpose": "CSS preview translation of the SwiftUI green shadow with radius 8 and y-offset 4 on the raised New action." }
+    ],
+    "motion": [
+      { "name": "press-fast", "value": "ease-out 120ms", "purpose": "Primary and secondary button press feedback; primary also scales to 0.985 and fades to 82%." },
+      { "name": "auth-crossfade", "value": "ease-out 200ms", "purpose": "Transition from authentication into the marketplace shell." },
+      { "name": "search-progress", "value": "ease-out 300ms", "purpose": "Updates helper-search progress; becomes immediate with Reduce Motion." },
+      { "name": "welcome-reveal", "value": "ease-out 350ms", "purpose": "Initial welcome content reveal; becomes immediate with Reduce Motion." }
+    ],
+    "breakpoints": [
+      { "name": "centered-content-cap", "value": "720pt" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The dominant full-width action for creating, accepting, continuing, or starting work.",
+      "html": "<button class=\"ds-btn-primary\">Create a Task</button>",
+      "css": ".ds-btn-primary { color-scheme: light dark; min-height: 44px; width: 100%; padding: 10px 20px; border: 0; border-radius: 999px; background: light-dark(#2F7650, #63B88D); color: #FFFFFF; font: 600 17px -apple-system, BlinkMacSystemFont, sans-serif; transition: opacity 120ms ease-out, transform 120ms ease-out; } .ds-btn-primary:hover { background: light-dark(#2F7650, #63B88D); } .ds-btn-primary:focus-visible { outline: 3px solid color-mix(in srgb, light-dark(#2F7650, #63B88D) 35%, transparent); outline-offset: 2px; } .ds-btn-primary:active { opacity: .82; transform: scale(.985); }"
+    },
+    {
+      "name": "Secondary Action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A paired decline, cancel, or lower-emphasis action that preserves the primary action’s geometry.",
+      "html": "<button class=\"ds-btn-secondary\">Decline</button>",
+      "css": ".ds-btn-secondary { color-scheme: light dark; min-height: 44px; width: 100%; padding: 10px 20px; border: 1px solid light-dark(#E8E4DC, #3D4239); border-radius: 999px; background: light-dark(#F4F1EC, #252922); color: light-dark(#1B1D21, #F5F6F2); font: 600 17px -apple-system, BlinkMacSystemFont, sans-serif; transition: background 120ms ease-out; } .ds-btn-secondary:hover { background: light-dark(#F4F1EC, #252922); } .ds-btn-secondary:focus-visible { outline: 3px solid color-mix(in srgb, light-dark(#1F2A44, #ADBEE7) 30%, transparent); outline-offset: 2px; } .ds-btn-secondary:active { background: light-dark(#E8E4DC, #3D4239); }"
+    },
+    {
+      "name": "Status Pill",
+      "kind": "chip",
+      "refersTo": "status-pill",
+      "description": "A compact text-and-symbol status for availability, detour, route fit, progress, or category meaning.",
+      "html": "<span class=\"ds-status-pill\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M9 12l2 2 4-5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Route Match</span>",
+      "css": ".ds-status-pill { color-scheme: light dark; display: inline-flex; align-items: center; gap: 5px; padding: 6px 10px; border: 1px solid color-mix(in srgb, light-dark(#2F7650, #63B88D) 20%, transparent); border-radius: 999px; background: color-mix(in srgb, light-dark(#2F7650, #63B88D) 10%, transparent); color: light-dark(#2F7650, #63B88D); font: 600 12px -apple-system, BlinkMacSystemFont, sans-serif; } .ds-status-pill svg { width: 14px; height: 14px; } .ds-status-pill:hover { background: color-mix(in srgb, light-dark(#2F7650, #63B88D) 10%, transparent); } .ds-status-pill:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }"
+    },
+    {
+      "name": "Marketplace Task Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "The bordered, flat marketplace unit for task identity, reward, route effort, timing, and match quality.",
+      "html": "<button class=\"ds-task-card\"><span class=\"ds-task-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 8h12v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8Zm12 2h2a2.5 2.5 0 0 1 0 5h-2M6 21h11\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><span class=\"ds-task-copy\"><strong>Coffee Pickup</strong><small>Starbucks · Bancroft Way</small><em>+0.1 mi · +7 min · 96% route match</em></span><b>US$5.00</b></button>",
+      "css": ".ds-task-card { color-scheme: light dark; width: 100%; display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: start; padding: 15px; border: 1px solid light-dark(#E8E4DC, #3D4239); border-radius: 14px; background: light-dark(#FFFFFF, #1C1F1B); color: light-dark(#1B1D21, #F5F6F2); text-align: left; font-family: -apple-system, BlinkMacSystemFont, sans-serif; } .ds-task-icon { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 10px; background: color-mix(in srgb, #8F6A45 10%, transparent); color: #8F6A45; } .ds-task-icon svg { width: 22px; height: 22px; } .ds-task-copy { display: grid; gap: 3px; } .ds-task-copy strong { font-size: 17px; } .ds-task-copy small { color: light-dark(#5C626C, #B9BFB5); font-size: 12px; } .ds-task-copy em { margin-top: 7px; color: light-dark(#2F7650, #63B88D); font-size: 12px; font-style: normal; font-weight: 600; } .ds-task-card b { font-size: 20px; font-variant-numeric: tabular-nums; } .ds-task-card:hover { border-color: light-dark(#E8E4DC, #3D4239); } .ds-task-card:focus-visible { outline: 3px solid color-mix(in srgb, light-dark(#2F7650, #63B88D) 30%, transparent); outline-offset: 2px; } .ds-task-card:active { background: light-dark(#F4F1EC, #252922); }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "The quiet filled field used for task details, search, authentication, destinations, and chat.",
+      "html": "<label class=\"ds-field-label\">Pickup Address<input class=\"ds-field\" value=\"Bancroft Way\" /></label>",
+      "css": ".ds-field-label { color-scheme: light dark; display: grid; gap: 6px; color: light-dark(#5C626C, #B9BFB5); font: 600 12px -apple-system, BlinkMacSystemFont, sans-serif; } .ds-field { min-height: 44px; box-sizing: border-box; padding: 12px; border: 0; border-radius: 10px; background: light-dark(#F4F1EC, #252922); color: light-dark(#1B1D21, #F5F6F2); font: 400 17px -apple-system, BlinkMacSystemFont, sans-serif; } .ds-field:hover { background: light-dark(#F4F1EC, #252922); } .ds-field:focus-visible { outline: 2px solid light-dark(#2F7650, #63B88D); outline-offset: 2px; }"
+    },
+    {
+      "name": "Requester / Helper Role Switch",
+      "kind": "custom",
+      "refersTo": "role-switch",
+      "description": "The native segmented role control that keeps both sides of the marketplace within one account.",
+      "html": "<div class=\"ds-role-switch\" role=\"group\" aria-label=\"Marketplace mode\"><button class=\"ds-role-option is-selected\">Need Help</button><button class=\"ds-role-option\">Help &amp; Earn</button></div>",
+      "css": ".ds-role-switch { color-scheme: light dark; display: grid; grid-template-columns: 1fr 1fr; gap: 0; padding: 3px; border-radius: 999px; background: light-dark(#F4F1EC, #252922); } .ds-role-option { min-height: 38px; border: 0; border-radius: 999px; background: transparent; color: light-dark(#1B1D21, #F5F6F2); font: 500 17px -apple-system, BlinkMacSystemFont, sans-serif; } .ds-role-option.is-selected { background: Canvas; color: CanvasText; font-weight: 600; } .ds-role-option:hover { color: light-dark(#1B1D21, #F5F6F2); } .ds-role-option:focus-visible { outline: 2px solid light-dark(#2F7650, #63B88D); outline-offset: -2px; } .ds-role-option:active { opacity: .82; }"
+    },
+    {
+      "name": "Map Annotation",
+      "kind": "custom",
+      "refersTo": "map-annotation",
+      "description": "An approximate material-style map marker for helper readiness or a task’s category and reward.",
+      "html": "<button class=\"ds-map-pin\"><span class=\"ds-map-label\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"8\" r=\"4\"/><path d=\"M5 21c0-4 3-7 7-7s7 3 7 7\"/></svg>Ready</span><i></i></button>",
+      "css": ".ds-map-pin { color-scheme: light dark; display: inline-grid; justify-items: center; gap: 4px; padding: 0; border: 0; background: transparent; color: light-dark(#1B1D21, #F5F6F2); } .ds-map-label { display: inline-flex; align-items: center; gap: 5px; padding: 6px 8px; border-radius: 999px; background: color-mix(in srgb, light-dark(#FFFFFF, #1C1F1B) 88%, transparent); font: 700 11px -apple-system, BlinkMacSystemFont, sans-serif; backdrop-filter: blur(12px); } .ds-map-label svg { width: 14px; height: 14px; fill: currentColor; } .ds-map-pin i { width: 12px; height: 12px; box-sizing: border-box; border: 2px solid #FFFFFF; border-radius: 50%; background: light-dark(#2F7650, #63B88D); } .ds-map-pin:hover .ds-map-label { background: color-mix(in srgb, light-dark(#FFFFFF, #1C1F1B) 92%, transparent); } .ds-map-pin:focus-visible { outline: 3px solid light-dark(#2F7650, #63B88D); outline-offset: 3px; border-radius: 14px; } .ds-map-pin:active { transform: scale(.985); }"
+    },
+    {
+      "name": "Raised New Action",
+      "kind": "nav",
+      "refersTo": "bottom-primary-action",
+      "description": "The singular 52-point creation action raised above the persistent four-destination bottom bar.",
+      "html": "<button class=\"ds-new-action\" aria-label=\"Create a new task\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\"/></svg></button>",
+      "css": ".ds-new-action { color-scheme: light dark; display: grid; place-items: center; width: 52px; height: 52px; border: 0; border-radius: 50%; background: light-dark(#2F7650, #63B88D); color: #FFFFFF; box-shadow: 0 4px 16px rgba(47, 118, 80, .25); transition: opacity 120ms ease-out, transform 120ms ease-out; } .ds-new-action svg { width: 24px; height: 24px; } .ds-new-action:hover { background: light-dark(#2F7650, #63B88D); } .ds-new-action:focus-visible { outline: 3px solid color-mix(in srgb, light-dark(#2F7650, #63B88D) 35%, transparent); outline-offset: 3px; } .ds-new-action:active { opacity: .82; transform: scale(.985); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Neighborhood Wayfinder",
+    "overview": "OnTheWay feels like a dependable local map annotated by a calm neighbor: warm off-white ground, high-contrast ink, restrained color signals, and one clear action at a time. The interface is information-rich but never dashboard-like; native typography, controls, navigation, and SF Symbols keep the marketplace immediately legible on Apple devices.\n\nThe map is the visual proof of proximity and route fit, while rounded, outlined cards turn nearby people, tasks, money, and lifecycle steps into scannable units. Sage green carries action, availability, route fit, and successful progress; deep navy anchors selection and trust. Amber, blue, plum, and coffee brown identify categories or supporting meaning without competing with the primary action.\n\nVoice is calm, direct, trustworthy, local, and human. Labels use concrete verbs and plain outcomes—“Create a Task,” “Accept Task,” “Start Helping Now”—while supporting copy explains timing, detour, payment, and privacy before asking for commitment. Sensitive details are described honestly and revealed progressively.",
+    "keyCharacteristics": [
+      "Map-led discovery with approximate pre-match location signals.",
+      "Warm adaptive surfaces with deep neutral ink and hairline boundaries.",
+      "Sage-green actions and positive status; navy selection and trust.",
+      "Native SF typography, SF Symbols, navigation, dialogs, pickers, and controls.",
+      "Compact rounded cards, capsules, and circular identity/action moments.",
+      "Transparent task state, route effort, pricing, consent, and privacy copy."
+    ],
+    "rules": [
+      { "name": "The Semantic Accent Rule", "body": "Green means action, availability, route fit, or success; navy means selection, identity, or trust; tertiary hues remain scoped to categories and supporting status.", "section": "colors" },
+      { "name": "The Adaptive Pair Rule", "body": "Shared surfaces, lines, ink, and semantic accents use their implemented light/dark pairs. Never substitute a light-only raw value for a shared UI role.", "section": "colors" },
+      { "name": "The Native Scale Rule", "body": "Use SwiftUI text styles and weight modifiers as the type system. Fixed sizes are reserved for symbol geometry and bounded controls, not readable text.", "section": "typography" },
+      { "name": "The Data Stability Rule", "body": "Apply monospaced digits to values that compare, count, update, or align; keep surrounding prose in the default proportional face.", "section": "typography" },
+      { "name": "The Centered Column Rule", "body": "New screens inherit the 16-point inset and 720-point maximum before inventing a different grid.", "section": "layout" },
+      { "name": "The Route-First Rule", "body": "On marketplace discovery, location, role, route/proximity evidence, and the next action appear before secondary detail.", "section": "layout" },
+      { "name": "The Flat-by-Default Rule", "body": "Borders and tonal surfaces create structure; shadows belong only to the welcome identity mark and the raised global creation action.", "section": "elevation" },
+      { "name": "The Map Material Rule", "body": "Translucent material appears only where labels overlay live map content or where the system bar needs native separation.", "section": "elevation" },
+      { "name": "The Shape-by-Meaning Rule", "body": "Use cards for grouped information, capsules for actions and transient status, and circles for identity, presence, or one-icon actions.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do begin discovery screens with current-area context, requester/helper mode, and map or route evidence.",
+      "Do use adaptive semantic colors and verify both light and dark appearances.",
+      "Do preserve the 14-point card, 10-point compact-control, capsule-action, and circular-identity grammar.",
+      "Do use native SwiftUI text styles, SF Symbols, navigation, pickers, dialogs, safe areas, and at least 44-point touch targets.",
+      "Do label icon-only controls and map content for VoiceOver, combine dense rows thoughtfully, mark selections, and honor Reduce Motion.",
+      "Do show approximate location before a match and explain when exact address, identity, reference, and handoff details unlock.",
+      "Do write short, concrete labels and pair marketplace claims with visible facts such as detour, response time, route match, price, or state."
+    ],
+    "donts": [
+      "Don't use category accents as competing primary actions or decorative color washes.",
+      "Don't add shadows to routine cards, fields, or list rows; use tonal contrast and the one-point hairline.",
+      "Don't replace SF typography or SF Symbols with web fonts, icon packs, or manually fixed text sizes.",
+      "Don't replace native navigation, segmented controls, menus, alerts, sheets, toggles, sliders, steppers, or date pickers with web-shaped imitations.",
+      "Don't expose exact locations, full order references, personal contact details, or handoff instructions before the lifecycle permits them.",
+      "Don't encode state with color alone; retain text, symbols, values, and accessibility traits.",
+      "Don't shrink routine controls below 44 points or let Dynamic Type collide with the map and bottom navigation."
+    ]
+  }
+}
